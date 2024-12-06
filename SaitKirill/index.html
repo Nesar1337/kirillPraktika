@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TraveVologda</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script type="module">Fancybox.bind("[data-src]", { closeButton: false })</script>
+</head>
+
+<body>
+    <section id="block-1">
+        <header>
+            <a href="/">TraveVologda</a>
+            <button id="burger"><img src="/Images/burger.svg"></button>
+            <div>
+                <a href="/Info/">Информация</a>
+                <a href="/About/">Обзор</a>
+                <a href="#">Уведомление</a>
+                <a href="#">Блог</a>
+                <button>блог</button>
+            </div>
+        </header>
+        <h1>Откройте для себя новую жизнь, путишействуйте куда хотите</h1>
+    </section>
+
+    <section id="block-2">
+        <h1>Специальные акционные предложения</h1>
+        <div id="block-2-radio">
+            <input checked type="radio" id="checkbox-2-1" name="checkbox-2">
+            <label for="checkbox-2-1">Один</label>
+            <input type="radio" id="checkbox-2-2" name="checkbox-2">
+            <label for="checkbox-2-2">Пара</label>
+            <input type="radio" id="checkbox-2-3" name="checkbox-2">
+            <label for="checkbox-2-3">Семья</label>
+        </div>
+        <div id="block-2-cards">
+            <div>
+                <img src="Images/block-2-1.png">
+                <span class="price-low">
+                    <h5>Низкая цена</h5>
+                    <h5>Доступно: 3 суток</h5>
+                </span>
+                <h4>Заречье</h4>
+                <span class="button-buy">
+                    <span>
+                        <h4>1000</h4>
+                        <h4>/сутки</h4>
+                    </span>
+                    <button>Забронировать</button>
+                </span>
+            </div>
+            <div>
+                <img src="Images/block-2-2.png">
+                <span class="price-medium">
+                    <h5>Средняя цена</h5>
+                    <h5>Доступно: 10 суток</h5>
+                </span>
+                <h4>Заречье</h4>
+                <span class="button-buy">
+                    <span>
+                        <h4>1400</h4>
+                        <h4>/сутки</h4>
+                    </span>
+                    <button>Забронировать</button>
+                </span>
+            </div>
+            <div>
+                <img src="Images/block-2-3.png">
+                <span class="price-high">
+                    <h5>Высокая цена</h5>
+                    <h5>Доступно: 20 суток</h5>
+                </span>
+                <h4>Центральный район</h4>
+                <span class="button-buy">
+                    <span>
+                        <h4>4340</h4>
+                        <h4>/сутки</h4>
+                    </span>
+                    <button>Забронировать</button>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="block-3">
+        <img src="Images/block-3.png">
+        <div>
+            <h1>Найдем вам начлег на любой бюджет</h1>
+            <h5>Здесь вы можете забронировать и осмотреть разные предложения нашего вилеколепного города, так же на
+                нашем сайте доступны акции для первой покупки или бронирования жилья</h5>
+            <button data-src="#modal-buy">Связаться с нами</button>
+        </div>
+    </section>
+
+    <section id="block-4">
+        <h1>Самые популярные места</h1>
+        <div id="block-4-radio">
+            <input checked type="radio" id="checkbox-4-1" name="checkbox-4">
+            <label for="checkbox-4-1">Центр</label>
+            <input type="radio" id="checkbox-4-2" name="checkbox-4">
+            <label for="checkbox-4-2">Окраина</label>
+            <input type="radio" id="checkbox-4-3" name="checkbox-4">
+            <label for="checkbox-4-3">Весь Город</label>
+        </div>
+        <div id="block-4-cards">
+            <button>
+                <img src="Images/block-4-1.png">
+                <h4>Отель “История“</h4>
+                <h5><img src="Images/address.svg">Вологда</h5>
+
+                <span><img src="Images/star.svg">3.4</span>
+            </button>
+            <button>
+                <img src="Images/block-4-2.png">
+                <h4>Отель “Мартон Вологда”</h4>
+                <h5><img src="Images/address.svg">Вологда</h5>
+
+                <span><img src="Images/star.svg">4.5</span>
+            </button>
+            <button>
+                <img src="Images/block-4-3.png">
+                <h4>Отель “Аура”</h4>
+                <h5><img src="Images/address.svg">Вологда</h5>
+
+                <span><img src="Images/star.svg">4.2</span>
+            </button>
+            <button>
+                <img src="Images/block-4-4.png">
+                <h4>Отель “Атриум”</h4>
+                <h5><img src="Images/address.svg">Вологда</h5>
+
+                <span><img src="Images/star.svg">3.5</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="block-5">
+        <h1>Отзывы</h1>
+        <img src="Images/block-5.png">
+        <button><img src="Images/feedback-arrow.svg"></button>
+        <button><img src="Images/feedback-arrow.svg"></button>
+    </section>
+
+    <section id="block-6">
+        <h1>Не упустите скидку, дарим каждому новому клиенту 35% скидку</h1>
+        <button>Зарегестрироваться сегодня</button>
+    </section>
+
+    <footer>
+        <div>
+            <span>
+                <h2>+7(952)-212-32-11</h2>
+                <h3>Пн - Пт: с 11:00 до 23:00</h3>
+            </span>
+            <span>
+                <a href="/About/">Обзор</a>
+                <a class="hide-on-mobile" href="#">Уведомления</a>
+                <a href="/">Блог</a>
+            </span>
+        </div>
+        <span>
+            <a href="#"><img src="Images/vk.png"></a>
+            <a href="#"><img src="Images/tg.png"></a>
+        </span>
+    </footer>
+
+    <dialog id="modal-buy">
+        <form>
+            <h1>Обратная связь</h1>
+            <div>
+                <label for="modal-fio">ФИО</label>
+                <input id="modal-fio" required>
+                <label for="modal-tel">Телефон</label>
+                <input id="modal-tel" type="tel" required>
+                <label for="modal-email">Почта</label>
+                <input id="modal-email">
+            </div>
+            <button type="submit" onclick="$.fancybox.close();">Оформить заявку</button>
+        </form>
+    </dialog>
+</body>
+
+</html>
